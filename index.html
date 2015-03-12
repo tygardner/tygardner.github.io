@@ -60,7 +60,7 @@
                         
                         <h1>
                             Trevor Michaelis
-                            <small>Renaissance Man</small>
+                            <small>Software Quality Assurance</small>
                         </h1>
                         
                     </div><!-- end .cv-section-title -->
@@ -113,7 +113,7 @@
                     
                     <div class="cv-section-title">
                         
-                        <h2>Profesional Profile</h2>
+                        <h2>Personal Summary</h2>
                         
                     </div><!-- end .cv-section-title -->
                     
@@ -299,28 +299,27 @@
         
         <!-- /// FOOTER     ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
             
-             <div class="row">
+            <!-- <div class="row">
                 <div class="span12">
                     
                     <div class="cv-contact">
-        
-                        <div class="cv-contact-toggle">
                             
-                            <a href="#">
-                                <i class="fa fa-envelope"></i>
-                            </a>
-                            
-                        </div><!-- end .cv-contact-toggle -->
-                        
-                         <div class="cv-section-title">
+                            <div class="cv-contact-toggle" >
+                                
+                                <a href="#" onclick="sendMail()">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                                
+                            </div> --> <!-- end .cv-contact-toggle -->
+                        <!-- <div class="cv-section-title">
                         
                             <h2>Contact Form</h2>
                             
-                        </div><!-- end .cv-section-title -->
+                        </div> --> <!-- end .cv-section-title -->
                         
-                        <p>Consectetur adipiscing elit phasellus non nibh a mi placerat imperdiet. </p>
+                       <!-- <p>Consectetur adipiscing elit phasellus non nibh a mi placerat imperdiet. </p>
                         
-                        <form class="fixed" id="contact-form"  name="contact-form" method="post" action="layout/php/send.php"> 
+                        <form class="fixed" id="contact-form"  name="contact-form" method="post" action="#"> 
                             <fieldset>
                                 
                                 <div id="formstatus"></div>
@@ -333,12 +332,12 @@
                                 
                                 <textarea id="message" name="message" rows="50" cols="25" placeholder="message"></textarea>
                                 
-                                <input id="submit" type="submit" name="submit" value="Send!">
+                                <input id="submit" type="submit" name="submit" value="Send!" onclick="sendMail()">
                                    
                             </fieldset>
-                        </form>
+                        </form> -->
                         
-                    </div><!-- end .cv-contact -->
+                    </div> <!-- end .cv-contact -->
             
                     <h4 class="copyright">&copy; 2015 Trevor Michaelis. <span class="hidden-phone">All rights reserved.</span></h4>
                     
@@ -354,12 +353,12 @@
     <a id="back-to-top" href="#">
         <i class="fa fa-angle-up"></i>
     </a>
-    
-    <a id="print" href="javascript:window.print()" title="Print the CV">
-        <i class="fa fa-print"></i>
+
+    <a id="print" href="#" onclick="sendMail()" title="Send me an email">
+        <i class="fa fa-envelope"></i>
     </a>
         
-    <a id="pdf" href="#" title="Download it as a .pdf">
+    <a id="pdf" href="layout/images/trevormichaelis.pdf" title="Download it as a .pdf" download="layout/images/trevormichaelis.pdf">
         <i class="fa fa-download"></i>
     </a>
 
