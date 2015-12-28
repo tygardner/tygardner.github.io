@@ -422,6 +422,6 @@
    ========================================================================== */
 
    function sendMail() {
-    var link = "mailto:tdmichaelis@gmail.com";
+    var link = "mailto:tygardner16@gmail.com";
     	window.location.href = link;
  	}
