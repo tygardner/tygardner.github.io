@@ -60,7 +60,7 @@
 		border-top: 1px solid #dadada; 
 	}
 	
-	#header .cv-section:first-child { border-top: 10px solid #008200; }
+	#header .cv-section:first-child { border-top: 10px solid #fdb020; }
 	
 	/* CV Section Title */
 	
@@ -92,6 +92,10 @@
 		padding-bottom: 40px;
 		border-bottom: 1px solid #dadada;
 		margin-bottom: 40px;
+	}
+
+	.intern {
+		border-bottom: 0;
 	}
 	
 	.cv-item:last-child {
